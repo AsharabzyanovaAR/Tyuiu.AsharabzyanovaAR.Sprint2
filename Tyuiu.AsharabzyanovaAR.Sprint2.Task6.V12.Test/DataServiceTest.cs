@@ -9,10 +9,10 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint2.Task6.V12.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            int n = 10;
-            int m = 3;
             int g = 2023;
-            Assert.AreEqual("9.3.2023", ds.FindDateOfPreviousDay(g,m,n));
+            int m = 3;
+            int n = 10;
+            Assert.AreEqual("09.03.2023", ds.FindDateOfPreviousDay(g,m,n));
         }
     }
 }

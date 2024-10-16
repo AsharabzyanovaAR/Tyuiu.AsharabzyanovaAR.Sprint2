@@ -23,11 +23,11 @@ internal class Program
         Console.WriteLine("***************************************************************************");
 
         
-        int n = Convert.ToInt32(Console.ReadLine());
-        int m = Convert.ToInt32(Console.ReadLine());
         int g = Convert.ToInt32(Console.ReadLine());
+        int m = Convert.ToInt32(Console.ReadLine());
+        int n = Convert.ToInt32(Console.ReadLine());
 
-        string res = ds.FindDateOfPreviousDay(n, m, g);
+        string res = ds.FindDateOfPreviousDay(g,m,n);
       
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");

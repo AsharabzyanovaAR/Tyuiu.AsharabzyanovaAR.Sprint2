@@ -3,7 +3,7 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint2.Task6.V12.Lib
 {
     public class DataService : ISprint2Task6V12
     {
-        public string FindDateOfPreviousDay(int n, int m, int g)
+        public string FindDateOfPreviousDay(int g, int m, int n)
         {
             switch (n, m)
             {
@@ -22,7 +22,7 @@ namespace Tyuiu.AsharabzyanovaAR.Sprint2.Task6.V12.Lib
 
                 
 
-                default: return ($"{n-1}.{m}.{g}"); 
+                default: return ($"0{n-1}.0{m}.{g}"); 
             }
 
             
